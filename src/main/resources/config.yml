@@ -1,0 +1,29 @@
+# Разработчик плагина: Soldi_n
+
+animation-enabled: true
+
+particles:
+  enabled: true
+  color:
+    red: 255
+    green: 0
+    blue: 0
+  tick-interval: 2
+  smoke: true
+
+ascend:
+  duration-ticks: 40
+  speed-per-tick: 0.1
+  use-gravity: false
+
+explosion:
+  enabled: true
+  delay-ticks: 60
+  real-explosion: false
+  power: 2.0
+  break-blocks: false
+  set-fire: false
+
+messages:
+  reloaded: '§aDeadAnimSoldin: конфиг перезагружен.'
+  disabled: '§cАнимация смерти отключена в конфиге.'
